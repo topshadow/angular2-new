@@ -21,6 +21,5 @@ gulp.task("default", ["copy-html"], function () {
     })
     .plugin(tsify)
     .bundle()
-    .pipe(source('bundle.js'))
-    .pipe(gulp.dest("dist"));
+    .pipe(gulp.dest("app"));
 });
