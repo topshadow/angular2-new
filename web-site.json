@@ -1,4 +1,19 @@
 {
 	"username":"topshadow",
-	"password":"shadow2016"
+	"password":"shadow2016",
+	"nav":[],
+	"foot":[],
+	"pages":[
+		{
+			"path":"index",
+			"components":[
+				{
+					"component":"Banner",
+					"title":"轮播"
+				}
+			]
+
+		}
+	]
+	
 }
